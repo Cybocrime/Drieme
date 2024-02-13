@@ -1,0 +1,17 @@
+for background image and using it as walpaper.
+
+background-image: url('background-image.png');
+ /* Ensure the background covers the entire container */
+ background-size: cover;
+/* Center the background image */
+background-position: center;
+/* Make the background fixed */
+background-attachment: fixed;
+/* Set the height of the container to the full viewport height */
+height: 100vh;
+/* Center the content both horizontally and vertically */
+display: flex;
+justify-content: center;
+align-items: center;
+/* Adjust text color for better visibility on the background */
+color: white;
